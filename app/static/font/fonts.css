@@ -1,0 +1,215 @@
+/* Adelle Mono*/
+@font-face {
+    font-family: AdelleMono;
+    font-weight: 700;
+    src: url("AdelleMono/AdelleMono-Bold.woff2");
+    font-display: swap
+}
+
+@font-face {
+    font-family: AdelleMono;
+    font-weight: 800;
+    src: url("AdelleMono/AdelleMono-Extrabold.woff2");
+    font-display: swap
+}
+
+@font-face {
+    font-family: AdelleMono;
+    font-weight: 400;
+    src: url("AdelleMono/AdelleMono-Regular.woff2");
+    font-display: swap
+}
+
+@font-face {
+    font-family: AdelleMono;
+    font-weight: 600;
+    src: url("AdelleMono/AdelleMono-Semibold.woff2");
+    font-display: swap
+}
+
+@font-face {
+    font-family: AdelleMono;
+    font-weight: 100;
+    src: url("AdelleMono/AdelleMono_var-Upright.ttf");
+    font-display: swap
+}
+
+@font-face {
+    font-family: AdelleMono;
+    font-weight: 300;
+    font-style: italic;
+    src: url("AdelleMono/AdelleMono-LightItalic.woff2");
+    font-display: swap
+}
+
+/* Abril */
+@font-face {
+    font-family: Abril;
+    font-weight: normal;
+    src: url("Abril/AbrilText.woff2") format("woff2");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Abril;
+    font-weight: 800;
+    src: url("Abril/AbrilDisplay-ExtraBold.woff") format("woff");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Abril;
+    font-style: italic;
+    font-weight: normal;
+    src: url("Abril/AbrilDisplay-Italic.woff2") format("woff2");
+    font-display: swap
+}
+
+/* Futura */
+@font-face {
+    font-family: Futura;
+    font-weight: 200;
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/7a0bcc93-4ec5-4962-8f7d-b0a2ba0cad4b.eot?#iefix);
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/7a0bcc93-4ec5-4962-8f7d-b0a2ba0cad4b.eot?#iefix) format("eot"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/9432cd19-89de-4884-bef2-8507ee5588e0.woff) format("woff"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/dc4205f2-bbb2-4c49-a37b-c3ed1585f174.ttf) format("truetype"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/8b01c1a5-04c8-4a6b-a925-79f92a72cbef.svg#ff86acda-0d1f-4f82-96be-91b0d94bad49) format("svg");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Futura;
+    font-style: italic;
+    font-weight: 200;
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/539fe5e2-8e50-4928-912a-944b27046aa6.eot?#iefix);
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/539fe5e2-8e50-4928-912a-944b27046aa6.eot?#iefix) format("eot"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/b7d0fe1c-6ba4-4cba-9a0a-af7b1bb6a623.woff) format("woff"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/b4875bcd-e66d-4824-9b53-990ff5329382.ttf) format("truetype"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/8c2e3bbf-c736-496e-ac3c-30426e2adcc6.svg#8c2e3bbf-c736-496e-ac3c-30426e2adcc6) format("svg");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Futura;
+    font-weight: 400;
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/a3756428-debf-4a86-aed0-a834a3df9bd7.eot?#iefix);
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/a3756428-debf-4a86-aed0-a834a3df9bd7.eot?#iefix) format("eot"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/588b3f3a-c193-4962-8e01-d4caef90f58b.woff) format("woff"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/cdced636-4488-4c04-809c-e6e1379600ec.ttf) format("truetype"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/34abe9e1-3810-4f50-9feb-63cd531bba3e.svg#34abe9e1-3810-4f50-9feb-63cd531bba3e) format("svg");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Futura;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/18344c49-d09e-4b3c-b8a8-b8ab949de2f9.eot?#iefix);
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/18344c49-d09e-4b3c-b8a8-b8ab949de2f9.eot?#iefix) format("eot"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/05f1af80-02cb-4d2b-992e-f7e9d678b7ad.woff) format("woff"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/7fc6d4cf-507b-4169-b151-c4ad51e034ca.ttf) format("truetype"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/38baa9f5-8717-437d-a2ad-2dd7c0db7965.svg#38baa9f5-8717-437d-a2ad-2dd7c0db7965) format("svg");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Futura;
+    font-weight: 600;
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/92596d86-eab0-4abb-ae87-3f8ee4d3dceb.eot?#iefix);
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/92596d86-eab0-4abb-ae87-3f8ee4d3dceb.eot?#iefix) format("eot"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/f0ee8fd2-4e6c-4676-b99d-5995bd5d9cc8.woff) format("woff"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/74b800bd-5c70-408f-951d-301b7a646abf.ttf) format("truetype"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/ea9720c1-d44e-4f4d-b6ab-de57c634f922.svg#ea9720c1-d44e-4f4d-b6ab-de57c634f922) format("svg");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Futura;
+    font-weight: 600;
+    font-style: italic;
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/84051870-f040-46c2-b101-b4523883aa10.eot?#iefix);
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/84051870-f040-46c2-b101-b4523883aa10.eot?#iefix) format("eot"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/c3373c25-ce7b-4bab-9772-c7fc45e87d4d.woff) format("woff"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/aa579620-3a5a-4db8-81ec-93602b05e7d9.ttf) format("truetype"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/7a53be99-47b9-454b-adad-291cff98ef46.svg#7a53be99-47b9-454b-adad-291cff98ef46) format("svg");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Futura;
+    font-weight: 800;
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/95949987-060f-4fde-ae8a-c755c53d32c3.eot?#iefix);
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/95949987-060f-4fde-ae8a-c755c53d32c3.eot?#iefix) format("eot"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/e0f29ba8-6773-4927-8374-b51a343706d7.woff) format("woff"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/a4fbf6ad-5e14-4594-928b-c755c53d32c3.ttf) format("truetype"), url(https://www.gucci.com/_ui/responsive/common/fonts/futura/v2/350cd6ee-d050-4eba-87f0-c755c53d32c3.svg#350cd6ee-d050-4eba-87f0-4e576ced922e) format("svg");
+    font-display: swap
+}
+
+@font-face {
+    font-family: gucci;
+    font-weight: 400;
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/futura/774947/39d6d3ec-f553-431d-ad4d-558be6242d56.eot?#iefix);
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/gucci/gucci.eot?#iefix) format("eot"), url(https://www.gucci.com/_ui/responsive/common/fonts/gucci/gucci.woff) format("woff"), url(https://www.gucci.com/_ui/responsive/common/fonts/gucci/gucci.ttf) format("truetype"), url(https://www.gucci.com/_ui/responsive/common/fonts/gucci/gucci.svg#77b1eb50-3952-4c75-ae95-c178ac651170) format("svg");
+    font-display: swap
+}
+
+@font-face {
+    font-family: Gess;
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_ultralight.eot);
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_ultralight.eot?#iefix) format("embedded-opentype"), url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_ultralight.woff2) format("woff2"), url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_ultralight.woff) format("woff"), url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_ultralight.svg#ge_ssultralight) format("svg");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Gess;
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_light.eot);
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_light.eot?#iefix) format("embedded-opentype"), url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_light.woff2) format("woff2"), url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_light.woff) format("woff"), url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_light.svg#ge_sslight) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Gess;
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_medium.eot);
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_medium.eot?#iefix) format("embedded-opentype"), url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_medium.woff2) format("woff2"), url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_medium.woff) format("woff"), url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_medium.svg#ge_ssmedium) format("svg");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Gess;
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_bold.eot);
+    src: url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_bold.eot?#iefix) format("embedded-opentype"), url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_bold.woff2) format("woff2"), url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_bold.woff) format("woff"), url(https://www.gucci.com/_ui/responsive/common/fonts/gess/ge_ss_text_bold.svg#ge_ssbold) format("svg");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Garamond Classico W00;
+    src: url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/34a52b8d-2905-47d9-9a12-101583331fe2.eot?#iefix);
+    src: url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/34a52b8d-2905-47d9-9a12-101583331fe2.eot?#iefix) format("eot"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/808d2319-446c-4532-b7de-145fa931f717.woff2) format("woff2"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/6c97b3c8-f94b-4a52-8480-5a6c0bdae39c.woff) format("woff"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/7688124d-fd99-4be1-a2ae-cd01f5369ba7.ttf) format("truetype"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/a489e643-efc3-496f-960f-804d9e214798.svg#a489e643-efc3-496f-960f-804d9e214798) format("svg");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Helvetica W01;
+    src: url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/05598d95-f297-4c7f-a825-ab617e7e045f.eot?#iefix);
+    src: url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/05598d95-f297-4c7f-a825-ab617e7e045f.eot?#iefix) format("eot"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/89294146-207c-4803-91fe-338f0d0094bd.woff2) format("woff2"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/57055fe4-c2d3-4287-bac2-eece43fdcbd3.woff) format("woff"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/2922d55c-8df4-4066-b7b0-eec2d1524330.ttf) format("truetype"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/f8343ddf-e94d-471e-95b0-3b435acc2499.svg#f8343ddf-e94d-471e-95b0-3b435acc2499) format("svg");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Orator W01;
+    src: url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/5ca55cb9-9aef-420d-b1b2-790efab36a22.eot?#iefix);
+    src: url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/5ca55cb9-9aef-420d-b1b2-790efab36a22.eot?#iefix) format("eot"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/d93452fb-6f2b-4f8c-bb51-7a7dbfbc1566.woff2) format("woff2"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/7e02dbde-0d3f-4d6b-8640-a8129cd42aff.woff) format("woff"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/1e12736f-1397-4c85-ace8-b44b906df865.ttf) format("truetype"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/25f4ca8e-12e8-4392-a06a-d4e209ca07c6.svg#25f4ca8e-12e8-4392-a06a-d4e209ca07c6) format("svg");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Akkurat;
+    src: url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/perso/akkurat.eot?#iefix);
+    src: url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/perso/akkurat.eot?#iefix) format("eot"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/perso/akkurat.woff2) format("woff2"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/perso/akkurat.woff) format("woff"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/perso/akkurat.ttf) format("truetype"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/perso/akkurat.svg#akkurat) format("svg");
+    font-display: swap;
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Filosofia;
+    src: url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/perso/filosofia.eot?#iefix);
+    src: url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/perso/filosofia.eot?#iefix) format("eot"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/perso/filosofia.woff2) format("woff2"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/perso/filosofia.woff) format("woff"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/perso/filosofia.ttf) format("truetype"), url(https://www.hermes.com/sites/all/themes/custom/hermes/fonts/perso/filosofia.svg#filosofia) format("svg");
+    font-display: swap;
+    font-weight: 200;
+    font-style: normal
+}

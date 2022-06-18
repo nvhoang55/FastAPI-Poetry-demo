@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1 class="text-5xl font-bold text-center mt-3">Demo Jinja2 + FastAPI</h1>
+
+    <form action="/ui" method="post" class="max-w-md mx-auto my-5">
+        <div class="input-group mb-3">
+
+            {# Name input #}
+            <input type="text" class="form-control" placeholder="Name" aria-label="Name" name="name"
+                   aria-describedby="button-addon2">
+
+            {# Search button #}
+            <button class="btn btn-outline-secondary" type="submit" id="button-addon2">
+                <i class="bi bi-search mr-1"></i>
+                Search
+            </button>
+
+            {# Reset button #}
+            <a type="button" class="btn btn-outline-danger !ml-5" href="/ui">
+                <i class="bi bi-arrow-clockwise mr-1"></i>
+                Reset
+            </a>
+
+        </div>
+    </form>
+
+    {% if request.method == 'POST' and result | count == 0 %}
+        <h1 class="text-3xl mx-auto text-center text-rose-600 border border-danger max-w-md py-2">No Result!</h1>
+    {% else %}
+        {#Data table#}
+        <table class="table table-striped max-w-3xl mx-auto">
+            <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Email</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            {# section Method = GET #}
+            {% if request.method == 'GET' %}
+                {% for user in users %}
+                    <tr>
+                        <th scope="row">{{ user['id'] }}</th>
+                        <td>{{ user['name'] }}</td>
+                        <td>{{ user['phone'] }}</td>
+                        <td>{{ user['email'] }}</td>
+                    </tr>
+                {% endfor %}
+
+                {# Method = POST #}
+            {% elif request.method == 'POST' %}
+                {% for user in result %}
+                    <tr>
+                        <th scope="row">{{ user['id'] }}</th>
+                        <td>{{ user['name'] }}</td>
+                        <td>{{ user['phone'] }}</td>
+                        <td>{{ user['email'] }}</td>
+                    </tr>
+                {% endfor %}
+            {% endif %}
+            </tbody>
+        </table>
+    {% endif %}
+{% endblock %}

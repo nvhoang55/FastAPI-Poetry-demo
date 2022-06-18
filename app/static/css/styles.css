@@ -1,0 +1,15 @@
+@import url("../font/fonts.css");
+
+html, body {
+    color: rgb(68, 68, 68);
+    background: #f6f1eb;
+    font-family: AdelleMono, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Abril, serif;
+    /*font-family: Orator W01, Microsoft YaHei, 微软雅黑, PingFang SC, 萍方, Noto Sans, SimHei, 黑体, Gill Sans, Gill Sans MT, Calibri, serif;*/
+    overflow-wrap: break-word;
+    color: rgb(68, 68, 68);
+    font-weight: 200;
+}
